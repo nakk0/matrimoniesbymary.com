@@ -4,6 +4,12 @@
 </script>
 
 <main>
-  <!-- <Mainpage />-->
   <Underconstruction />
+  <Mainpage />
 </main>
+
+<style>
+  :root{
+    background-color: #FFFDE7;
+  }
+</style>
