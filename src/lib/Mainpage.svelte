@@ -95,7 +95,6 @@
 </script>
 
 <main>
-
     <!-- still have to make everything responsive (it's fucking horrible on mobile atm) -->
     <div class="mx-auto w-2/3 bg-white p-5 my-5 rounded-3xl shadow">
         <div class="flex justify-center w-4/5 mx-auto font-serif">

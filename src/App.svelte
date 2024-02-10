@@ -4,8 +4,9 @@
 </script>
 
 <main>
+  <!-- remove overflow-hidden from index.html body -->
   <Underconstruction />
-  <!-- <Mainpage /> -->
+  <Mainpage />
 </main>
 
 <style>
