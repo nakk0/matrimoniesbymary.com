@@ -5,7 +5,7 @@
 
 <main>
   <Underconstruction />
-  <Mainpage />
+  <!-- <Mainpage /> -->
 </main>
 
 <style>

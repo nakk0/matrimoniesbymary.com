@@ -1,5 +1,8 @@
 <script>
     import logo from "/logos/logo.png";
+    import img1 from "/images/img1.jpeg";
+    import img2 from "/images/img2.jpeg";
+    import img3 from "/images/img3.jpeg";
 
 
     const paragraphs = [
@@ -94,7 +97,6 @@
 <main>
 
     <!-- still have to make everything responsive (it's fucking horrible on mobile atm) -->
-    <!-- also remember to remove the "overflow-hidden" from the index.html -->
     <div class="mx-auto w-2/3 bg-white p-5 my-5 rounded-3xl shadow">
         <div class="flex justify-center w-4/5 mx-auto font-serif">
             <p class="text-6xl text-[#bd243b]">Matrimonies by</p>
@@ -104,9 +106,9 @@
             <p class="text-6xl text-[#bd243b]">ary</p>
         </div>
 
-        <!-- 2 cos bc the images should go on the right -->
+        <!-- 2 cols bc the images should go on the right -->
         <div class="grid grid-cols-2">
-            <div class="text-start text-lg mt-10">
+            <div class="text-start text-lg mt-10 pe-5">
                 {#each paragraphs as item}
                     {@html item.title}
                     {#each item.p as p}
@@ -114,8 +116,10 @@
                     {/each}
                 {/each}
             </div>
-            <div>
-                <!-- images go here -->
+            <div class="ps-5 mt-10 grid grid-cols-1 gap-5 place-content-between">
+                <img class="rounded-3xl" src="{img1}" alt="">
+                <img class="rounded-3xl" src="{img2}" alt="">
+                <img class="rounded-3xl" src="{img3}" alt="">
             </div>
         </div>
     </div>
