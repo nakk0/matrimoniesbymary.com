@@ -1,3 +1,5 @@
+<!--this is all getting scrapped lol-->
+
 <script>
     import logo from "/logos/logo.png";
     import img1 from "/images/img1.jpeg";
